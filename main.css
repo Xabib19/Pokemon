@@ -1,0 +1,113 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1300px;
+    margin: 0 auto;
+}
+.head-img{
+ margin: 0 auto;
+display: flex;
+justify-content: center;
+margin-top: 50px;
+}
+
+.parent{
+    display: flex;
+    gap: 10px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+
+}
+body{
+    background-color:  rgba(68, 68, 68, 1);
+    
+}
+button{
+    width: 210px;
+height: 38px;
+
+border-radius: 6px;
+background: rgba(25, 135, 84, 1);
+border: none;
+
+}
+input{
+    width: 209px;
+height: 36px;
+border: rgba(206, 212, 218, 1);
+color :  rgba(108, 117, 125, 1);
+border-radius: 6px;
+border-width: 1px;
+padding-left: 10px;
+
+
+}
+ 
+.card {
+ width: 250px;
+ height: 380px;
+ border-radius: 10px;
+ background: #ffff00;
+ text-align: center;
+}
+
+.card-title {
+ font-family: Roboto;
+ font-weight: 900;
+ font-size: 20px;
+ line-height: 24px;
+ padding-top: 20px;
+}
+
+.card-poison {
+ width: 129px;
+ height: 40px;
+ background: #c4e4ff;
+ font-family: Roboto;
+ font-weight: 400;
+ font-size: 20px;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+
+ margin: 0 auto;
+ border-radius: 20px;
+
+}
+
+.card-count {
+ font-family: Roboto;
+ font-weight: 700;
+ font-size: 16px;
+ line-height: 24px;
+  padding-top: 20px;
+}
+
+.card-weight {
+ font-family: Roboto;
+ font-weight: 700;
+ font-size: 16px;
+ line-height: 24px;
+  padding-top: 10px;
+}
+
+.card-fire {
+ font-family: Roboto;
+ font-weight: 900;
+ font-size: 14px;
+ line-height: 21px;
+    color: #80007C;
+padding-top: 5px;
+}
+
+
+.card-parent {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+}
